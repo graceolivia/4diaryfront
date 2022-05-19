@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: aliceblue;
+  background-color: rgb(255, 213, 219);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,4 +32,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#cursive {
+  font-family: cursive;
 }
