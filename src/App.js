@@ -11,7 +11,6 @@ function App() {
           This is not the greatest app in the world...{" "}
           <span id="cursive">this is just a tribute</span>
         </p>
-        <p>Data will appear below in a minute:</p>
         <ApiQuery />
       </header>
     </div>

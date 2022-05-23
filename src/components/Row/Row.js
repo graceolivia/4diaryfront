@@ -1,12 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Row.css';
+import React from "react";
+import PropTypes from "prop-types";
+import "./Row.css";
 
-const Row = () => (
-  <div className="Row" data-testid="Row">
-    Row Component
-  </div>
-);
+function Row(props) {
+  return <h1>Movies</h1>;
+}
 
 Row.propTypes = {};
 
