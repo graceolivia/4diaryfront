@@ -6,7 +6,7 @@ import Row from './Row';
 describe('<Row />', () => {
   test('it should mount', () => {
     render(<Row />);
-    
+
     const row = screen.getByTestId('Row');
 
     expect(row).toBeInTheDocument();
